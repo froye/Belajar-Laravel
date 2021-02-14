@@ -1,0 +1,8 @@
+di add.blade.php, kenapa button bisa submit box artikel dan isi artikel ke database? 
+karena masih dalam satu Form
+
+di show.blade.php, ada syntax ini <div class="col-md-4 col-sm-12 mt-4">
+lalu yang tampil di web adalah 3 kolom untuk md (Medium ukuran ≥768px), jadi klo pake fungsi col
+maka akan ada maksimal 12 coloum, jadi col-md-4 maksudnya untuk fungsi tersebut ia ngambil 4 kolom, 
+klo col-md-2 maka ia ngambil 2 coloumn, maka dari itu semakin besar seting column (max 12) 
+maka semakin lebar tampilannya
